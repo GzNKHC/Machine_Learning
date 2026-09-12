@@ -1,0 +1,16 @@
+import torch
+a = torch.randn(2, 3)
+b = torch.randn(2, 3)
+
+print("a:")
+print(a)
+print("b:")
+print(b)
+print("\na + b:")
+print(a + b)
+print("\na / b:")
+print(a / b)
+print("\na^2:")
+print(a ** 2)
+print("\nMatrix multiplication:")
+print(a @ b.T)
