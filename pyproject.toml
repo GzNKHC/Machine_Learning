@@ -1,0 +1,29 @@
+[project]
+name = "sgu-machine-learning-team"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tran Tien Phat", email = "3124411222@sv.sgu.edu.vn" }
+]
+requires-python = ">=3.10.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "keras>=3.8.0",
+    "matplotlib>=3.10.0",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.18.0",
+    "xgboost>=2.1.4",
+]
+
+[project.scripts]
+sgu-machine-learning-team = "sgu_machine_learning_team:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+
